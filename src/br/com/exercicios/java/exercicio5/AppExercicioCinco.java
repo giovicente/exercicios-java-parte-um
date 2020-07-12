@@ -27,7 +27,7 @@ public class AppExercicioCinco {
                 mediaAluno.adicionarNota(mediaAluno.getNotas(), nota);
             } else {
                 while (!MediaAluno.validarNota(nota)) {
-                    System.out.print("Nota inválida, adicione outra nota com o valor entre 0 e 100.");
+                    System.out.print("Nota inválida, adicione outra nota com o valor entre 0 e 100: ");
                     nota = scanNota.nextInt();
                 }
                 mediaAluno.adicionarNota(mediaAluno.getNotas(), nota);

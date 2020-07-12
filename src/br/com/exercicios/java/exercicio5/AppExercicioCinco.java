@@ -23,6 +23,7 @@ public class AppExercicioCinco {
         for (int i = 0; i < numeroNotas; i++) {
             System.out.print("Digite a nota " + (i + 1) + ": ");
             nota = scanNota.nextInt();
+
             if (MediaAluno.validarNota(nota)) {
                 mediaAluno.adicionarNota(mediaAluno.getNotas(), nota);
             } else {

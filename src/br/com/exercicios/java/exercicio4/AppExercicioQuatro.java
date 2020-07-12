@@ -1,7 +1,5 @@
 package br.com.exercicios.java.exercicio4;
 
-import java.util.Scanner;
-
 public class AppExercicioQuatro {
 
     public static void main(String[] args) {

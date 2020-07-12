@@ -10,9 +10,7 @@ public class Impressora {
         System.out.println("Digite o segundo número: ");
     }
 
-    public static void imprimirMensagemNumerosIguais() {
-        System.out.println("Os números são iguais!");
-    }
+    public static void imprimirMensagemNumerosIguais() { System.out.println("Os números são iguais!"); }
 
     public static void imprimirNumeros(int maior, int menor) {
         System.out.println("Maior número: " + maior);

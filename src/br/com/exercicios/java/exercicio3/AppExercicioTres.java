@@ -3,10 +3,13 @@ package br.com.exercicios.java.exercicio3;
 public class AppExercicioTres {
     public static void main(String[] args) {
 
+        final int VALOR_INICIAL = 1;
+        final int VALOR_FINAL = 30;
+
         int somaImpares = 0;
         long multiplicacaoPares = 1;
 
-        for (int i = 1; i <= 30; i++) {
+        for (int i = VALOR_INICIAL; i <= VALOR_FINAL; i++) {
             if (i % 2 == 0) {
                 multiplicacaoPares *= i;
             } else {

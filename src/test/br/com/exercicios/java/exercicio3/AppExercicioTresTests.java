@@ -1,4 +1,4 @@
-package test.br.com.exercicios.java;
+package test.br.com.exercicios.java.exercicio3;
 
 import br.com.exercicios.java.exercicio3.Calculadora;
 import org.junit.jupiter.api.Assertions;

@@ -1,8 +1,8 @@
 package test.br.com.exercicios.java;
 
 import br.com.exercicios.java.exercicio1.MaiorNumero;
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class AppExercicioUmTests {
 

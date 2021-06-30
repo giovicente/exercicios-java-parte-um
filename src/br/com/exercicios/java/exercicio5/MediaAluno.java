@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class MediaAluno {
 
-    private ArrayList<Integer> notas;
+    private ArrayList<Integer> notas = new ArrayList<>();
+    private Leitor leitor = new Leitor();
 
     public MediaAluno() { }
 
@@ -22,6 +23,22 @@ public class MediaAluno {
         return true;
     }
 
+    public ArrayList<Integer> carregarNotas(int quantidadeNotas) {
+        for (int i = 0; i < quantidadeNotas; i++) {
+            Integer nota = leitor.inserirNota(i);
+
+            if (validarNota(nota)) {
+                notas.add(nota);
+            } else {
+                while (!validarNota(nota)) {
+                    nota = leitor.inserirNota(i);
+                }
+            }
+        }
+
+        return notas;
+    }
+
     public Integer calcularMedia(ArrayList<Integer> notas) {
         Integer somaNotas = 0;
 
@@ -33,5 +50,4 @@ public class MediaAluno {
 
         return media;
     }
-
 }

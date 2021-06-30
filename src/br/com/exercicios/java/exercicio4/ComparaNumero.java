@@ -2,13 +2,16 @@ package br.com.exercicios.java.exercicio4;
 
 public class ComparaNumero {
 
-    public static void compararNumeros(int primeiroNumero, int segundoNumero) {
+    public static int compararNumeros(int primeiroNumero, int segundoNumero) {
         if (primeiroNumero == segundoNumero) {
             Impressora.imprimirMensagemNumerosIguais();
+            return 0;
         } else if (primeiroNumero > segundoNumero) {
             Impressora.imprimirNumeros(primeiroNumero, segundoNumero);
+            return primeiroNumero;
         } else {
             Impressora.imprimirNumeros(segundoNumero, primeiroNumero);
+            return segundoNumero;
         }
     }
 

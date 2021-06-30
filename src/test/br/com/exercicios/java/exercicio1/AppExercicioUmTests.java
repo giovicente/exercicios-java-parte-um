@@ -1,4 +1,4 @@
-package test.br.com.exercicios.java;
+package test.br.com.exercicios.java.exercicio1;
 
 import br.com.exercicios.java.exercicio1.MaiorNumero;
 import org.junit.jupiter.api.Assertions;

@@ -13,6 +13,6 @@ public class AppExercicioUm {
         System.out.println("Digite o segundo número: ");
         int segundoNumero = scanSegundoNumero.nextInt();
 
-        MaiorNumero.imprimirMaiorNumero(primeiroNumero, segundoNumero);
+        int maiorNumero = MaiorNumero.imprimirMaiorNumero(primeiroNumero, segundoNumero);
     }
 }

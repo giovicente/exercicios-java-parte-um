@@ -18,12 +18,12 @@ public class AppExercicioTresTests {
     @Test
     public void testarSomaImpares() {
         int somaImpares = calculadora.somarImpares();
-        Assertions.assertEquals(calculadoraAssert.getSomaImpares(), somaImpares);
+        Assertions.assertEquals(somaImpares, calculadoraAssert.getSomaImpares());
     }
 
     @Test
     public void testarMultiplicacaoPares() {
         long multiplicacaoPares = calculadora.multiplicarPares();
-        Assertions.assertEquals(calculadoraAssert.getMultiplicacaoPares(), multiplicacaoPares);
+        Assertions.assertEquals(multiplicacaoPares, calculadoraAssert.getMultiplicacaoPares());
     }
 }

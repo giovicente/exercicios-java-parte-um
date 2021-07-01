@@ -13,9 +13,11 @@ public class Agenda {
 
     public void setContatos(ArrayList<Contato> contatos) { this.contatos = contatos; }
 
-    public void adicionarContato(Contato contato) {
+    public Contato adicionarContato(Contato contato) {
         contatos.add(contato);
         escritor.escreverRetornoInclusaoContato(contato);
+
+        return contato;
     }
 
     public Contato consultarContato(String nome) {

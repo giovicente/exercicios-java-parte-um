@@ -33,10 +33,10 @@ public class AppExercicioCincoTests {
     public void testarCalculoMedia() {
         MediaAluno mediaAluno = new MediaAluno();
         ArrayList<Integer> notas = new ArrayList<>();
-        notas.add(100);
-        notas.add(100);
-        notas.add(100);
         notas.add(99);
+        notas.add(100);
+        notas.add(100);
+        notas.add(100);
 
         Integer media = mediaAluno.calcularMedia(notas);
         Assertions.assertEquals(99, media);
